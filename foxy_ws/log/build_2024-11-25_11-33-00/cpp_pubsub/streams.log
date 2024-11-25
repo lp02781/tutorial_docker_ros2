@@ -1,0 +1,82 @@
+[0.009s] Invoking command in '/home/mfikih15/foxy_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mfikih15/foxy_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mfikih15/foxy_ws/install/cpp_pubsub
+[0.142s] -- The C compiler identification is GNU 9.4.0
+[0.183s] -- The CXX compiler identification is GNU 9.4.0
+[0.189s] -- Check for working C compiler: /usr/bin/cc
+[0.250s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.252s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.329s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.404s] -- Detecting CXX compiler ABI info
+[0.476s] -- Detecting CXX compiler ABI info - done
+[0.483s] -- Detecting CXX compile features
+[0.483s] -- Detecting CXX compile features - done
+[0.487s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.505s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.505s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.658s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.707s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.819s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.856s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.963s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.964s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.965s] -- Looking for pthread.h
+[1.024s] -- Looking for pthread.h - found
+[1.024s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.096s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.096s] -- Looking for pthread_create in pthreads
+[1.148s] -- Looking for pthread_create in pthreads - not found
+[1.148s] -- Looking for pthread_create in pthread
+[1.218s] -- Looking for pthread_create in pthread - found
+[1.219s] -- Found Threads: TRUE  
+[1.339s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.397s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.398s] -- Configured cppcheck include dirs: 
+[1.398s] -- Configured cppcheck exclude dirs and/or files: 
+[1.399s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.399s] -- Configured cpplint exclude dirs and/or files: 
+[1.399s] -- Added test 'lint_cmake' to check CMake code style
+[1.400s] -- Added test 'uncrustify' to check C / C++ code style
+[1.400s] -- Configured uncrustify additional arguments: 
+[1.400s] -- Added test 'xmllint' to check XML markup files
+[1.403s] -- Configuring done
+[1.409s] -- Generating done
+[1.410s] -- Build files have been written to: /home/mfikih15/foxy_ws/build/cpp_pubsub
+[1.414s] Invoked command in '/home/mfikih15/foxy_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mfikih15/foxy_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mfikih15/foxy_ws/install/cpp_pubsub
+[1.416s] Invoking command in '/home/mfikih15/foxy_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mfikih15/foxy_ws/build/cpp_pubsub -- -j8 -l8
+[1.455s] [35m[1mScanning dependencies of target talker[0m
+[1.455s] [35m[1mScanning dependencies of target listener[0m
+[1.527s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.527s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.694s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[5.406s] [ 75%] Built target talker
+[8.182s] [100%] [32m[1mLinking CXX executable listener[0m
+[8.466s] [100%] Built target listener
+[8.504s] Invoked command in '/home/mfikih15/foxy_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mfikih15/foxy_ws/build/cpp_pubsub -- -j8 -l8
+[8.605s] Invoking command in '/home/mfikih15/foxy_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mfikih15/foxy_ws/build/cpp_pubsub
+[8.655s] -- Install configuration: ""
+[8.656s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[8.657s] -- Set runtime path of "/home/mfikih15/foxy_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[8.657s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[8.661s] -- Set runtime path of "/home/mfikih15/foxy_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[8.662s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[8.662s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[8.662s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[8.662s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[8.662s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[8.662s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[8.662s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[8.662s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[8.663s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[8.663s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[8.663s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[8.663s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[8.663s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[8.663s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[8.664s] -- Installing: /home/mfikih15/foxy_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[8.672s] Invoked command in '/home/mfikih15/foxy_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mfikih15/foxy_ws/build/cpp_pubsub

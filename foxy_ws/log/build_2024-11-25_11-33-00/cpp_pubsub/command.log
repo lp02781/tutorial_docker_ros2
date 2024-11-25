@@ -1,0 +1,6 @@
+Invoking command in '/home/mfikih15/foxy_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mfikih15/foxy_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mfikih15/foxy_ws/install/cpp_pubsub
+Invoked command in '/home/mfikih15/foxy_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mfikih15/foxy_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mfikih15/foxy_ws/install/cpp_pubsub
+Invoking command in '/home/mfikih15/foxy_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mfikih15/foxy_ws/build/cpp_pubsub -- -j8 -l8
+Invoked command in '/home/mfikih15/foxy_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mfikih15/foxy_ws/build/cpp_pubsub -- -j8 -l8
+Invoking command in '/home/mfikih15/foxy_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mfikih15/foxy_ws/build/cpp_pubsub
+Invoked command in '/home/mfikih15/foxy_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mfikih15/foxy_ws/build/cpp_pubsub
