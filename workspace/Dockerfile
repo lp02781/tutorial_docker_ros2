@@ -49,6 +49,9 @@ RUN echo 'source /opt/ros/foxy/setup.bash' >> ~/.bashrc
 RUN echo 'source /workspace/install/setup.bash' >> ~/.bashrc
 
 # Set entrypoint to interactive bash shell
-CMD ["/bin/bash"]
+CMD ["/bin/bash", "-c", "source /opt/ros/foxy/setup.bash && \
+    source install/setup.bash && \
+    ros2 run cpp_pubsub talker && \
+    ros2 run cpp_pubsub listener"]
 
 

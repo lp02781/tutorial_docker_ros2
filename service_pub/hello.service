@@ -1,0 +1,14 @@
+[Unit]
+Description=Hello Service
+After=network.target
+
+[Service]
+ExecStart=/home/mfikih15/tutorial_docker_ros2/service_pub/
+Restart=always
+User=root
+WorkingDirectory=/home/mfikih15/tutorial_docker_ros2/service_pub
+StandardOutput=null
+StandardError=null
+
+[Install]
+WantedBy=multi-user.target
